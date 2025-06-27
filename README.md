@@ -7,7 +7,6 @@ TaskHive is a simple task management app built with Laravel, Laravel Breeze, Liv
 - User authentication (Laravel Breeze)
 - Create, Read, Update, Delete tasks
 - Task status: To Do, In Progress, Completed
-- Deadline support
 - Livewire components for real-time updates
 - Bootstrap for basic styling
 
