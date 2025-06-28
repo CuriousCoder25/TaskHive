@@ -1,35 +1,19 @@
-# TaskHive - Laravel Task Manager
+# 🐝 TaskHive – From Raw PHP to Laravel
 
-TaskHive is a simple task management app built with Laravel, Laravel Breeze, Livewire, and Bootstrap. It allows users to register, log in, and manage their personal tasks with CRUD functionality.
+TaskHive is a task management system built in two phases to demonstrate backend development progress and understanding.
 
-## Features
+- 🧱 `php-version` — A lightweight version built with **plain PHP** and **MySQL**, without any frameworks. Focused on core concepts like sessions, routing, and CRUD operations.
+- 🚀 `laravel-version` — A fully-featured Laravel application with **Laravel Breeze**, **Livewire**, and **Bootstrap**. Designed to follow modern best practices and MVC architecture.
 
-- User authentication (Laravel Breeze)
-- Create, Read, Update, Delete tasks
-- Task status: To Do, In Progress, Completed
-- Livewire components for real-time updates
-- Bootstrap for basic styling
+This project showcases how a simple idea can be built from scratch and then scaled using powerful frameworks like Laravel.
 
-## Tech Stack
+> 🌱 Ideal for self-learning, and comparing raw vs. structured development styles.
 
-- Laravel 10
-- Laravel Breeze
-- Livewire
-- Bootstrap 5
-- MySQL
+## 🤔 Why Two Versions?
 
-## Installation
+Learning a framework is more meaningful when you understand what it's abstracting away.
 
-```bash
-git clone https://github.com/yourusername/taskhive.git
-cd taskhive
+- The `php-version` helps me build everything from scratch—routing, database connection, form handling, session logic.
+- The `laravel-version` builds on that foundation, using Laravel's robust features to scale and organize the same functionality professionally.
 
-composer install
-npm install && npm run dev
-
-cp .env.example .env
-php artisan key:generate
-# Set up your database in .env
-
-php artisan migrate
-php artisan serve
+This side-by-side evolution shows how much cleaner, faster, and secure development can become with modern tools—while still respecting the fundamentals.
